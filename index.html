@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>首页</title>
+    <script src="js/mui.min.js"></script>
+     <script src="js/iconfont.js"></script>
+     
+     <style type="text/css">
+		.icon {
+		width: 1em;
+		height: 1em;
+		vertical-align: -0.15em;
+		fill: currentColor;
+		overflow: hidden;
+		}
+</style>
+    <link href="css/mui.min.css" rel="stylesheet"/>
+    <link href="css/main.css" rel="stylesheet"/>
+    <link href="css/iconfont.css" rel="stylesheet"/>
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+    </script>
+</head>
+<body>
+	<!-- 主界面菜单同时移动 -->
+	    <!-- 侧滑导航根容器 -->
+	    <div class="mui-off-canvas-wrap mui-draggable" id="souye">
+	        <!-- 主页面容器 -->
+	        <div class="mui-inner-wrap">
+	            <!-- 菜单容器 -->
+	            <aside class="mui-off-canvas-left" id="offCanvasSide">
+	                <div class="mui-scroll-wrapper">
+	                    <div class="mui-scroll" id="celan">
+	                        <!-- 菜单具体展示内容 -->
+	                        
+	                    </div>
+	                </div>
+	            </aside>
+	            <!-- 主页面标题 -->
+	            <header class="mui-bar mui-bar-nav">
+	                <a class="mui-icon mui-action-menu mui-icon-bars mui-pull-left" href="#offCanvasSide"></a>
+	                <div class="mui-title" id="top">
+	                	<div class="search01">
+	                		<img src="img/serch.png" />
+	                		<span>农银快e付</span>
+	                	</div>
+	                	<img src="img/hau.png" />
+	                </div>
+	                <a class="mui-icon mui-action-menu iconfont icon-erji mui-pull-right"></a>
+	                <a class="mui-icon  iconfont icon-xinxiduanxinxiaoxitixingyoujiansixinyouxiang mui-pull-right"></a>
+	            </header>
+	            <nav class="mui-bar mui-bar-tab" id="nav-tabbar">
+	    		    <a class="mui-tab-item mui-active" id="defaultTab" id="index">
+	    		        <span class="mui-icon iconfont icon-index"></span>
+	    		        <span class="mui-tab-label">首页</span>
+	    		    </a>
+	    		    <a href="investment.html" class="mui-tab-item" id="investment">
+	    		        <span class="mui-icon iconfont icon-touzi"></span>
+	    		        <span class="mui-tab-label">投资</span>
+	    		    </a>
+	    		    <a href="card.html" class="mui-tab-item" id="card">
+	    		        <span class="mui-icon iconfont icon-xinyongqia"></span>
+	    		        <span class="mui-tab-label">信用卡</span>
+	    		    </a>
+	    		    <a href="life.html" class="mui-tab-item" id="life">
+	    		        <span class="mui-icon iconfont icon-shenghuo"></span>
+	    		        <span class="mui-tab-label">生活</span>
+	    		    </a>
+	    		    <a href="my.html" class="mui-tab-item" id="my">
+	    		        <span class="mui-icon iconfont icon-wode"></span>
+	    		        <span class="mui-tab-label">我的</span>
+	    		    </a>
+	    		</nav>
+	            <!-- 主页面内容容器 -->
+	            <div class="mui-content mui-scroll-wrapper" id="offCanvasContentScroll">
+	                <div class="mui-scroll ">
+	                    <!-- 主界面具体展示内容 -->
+	                    <!--轮播开始-->
+	                    <div id="slider" class="mui-slider" >
+	                      <div class="mui-slider-group mui-slider-loop">
+	                        <!-- 额外增加的一个节点(循环轮播：第一个节点是最后一张轮播) -->
+	                        <div class="mui-slider-item mui-slider-item-duplicate">
+	                          <a href="#">
+	                            <img src="img/y3.jpg">
+	                          </a>
+	                        </div>
+	                        <!-- 第一张 -->
+	                        <div class="mui-slider-item">
+	                          <a href="#">
+	                            <img src="img/y1.jpg">
+	                          </a>
+	                        </div>
+	                        <!-- 第二张 -->
+	                        <div class="mui-slider-item">
+	                          <a href="#">
+	                            <img src="img/y2.jpg">
+	                          </a>
+	                        </div>
+	                        <!-- 第三张 -->
+	                        <div class="mui-slider-item">
+	                          <a href="#">
+	                            <img src="img/y3.jpg">
+	                          </a>
+	                        </div>
+	                        
+	                        <!-- 额外增加的一个节点(循环轮播：最后一个节点是第一张轮播) -->
+	                        <div class="mui-slider-item mui-slider-item-duplicate">
+	                          <a href="#">
+	                            <img src="img/y1.jpg">
+	                          </a>
+	                        </div>
+	                      </div>
+	                      <div class="mui-slider-indicator">
+	                        <div class="mui-indicator mui-active"></div>
+	                        <div class="mui-indicator"></div>
+	                        <div class="mui-indicator"></div>
+	                        
+	                      </div>
+	                    </div>
+	                    <script type="text/javascript">
+						mui.init();
+						mui(".mui-slider").slider({interval:2000});
+						</script>
+
+	                    <!--轮播结束-->
+	                    <!--晚上好部分开始-->
+	                    <div class="night">
+	                    	<div class="night_content">
+	                    		<p>晚上好!</p>
+	                    		<div>
+	                    		   <ul class="mui-table-view mui-grid-view mui-grid-12">
+	                    		   <li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3">
+	                    		       <a href="login.html">
+	                    		           <span class="mui-icon iconfont icon-zh" style="color: #00b694;"></span>
+	                    		           <div class="mui-media-body">我的账户</div>
+	                    		       </a>
+	                    		   </li>
+	                    		   <li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3">
+	                    		       <a href="#">
+	                    		           <span class="mui-icon iconfont icon-zz" style="color: #f79610;"></span>
+	                    		           <div class="mui-media-body">转账</div>
+	                    		       </a>
+	                    		   </li>
+	                    		   <li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3">
+	                    		       <a href="#">
+	                    		           <span class="mui-icon iconfont icon-ck" style="color: #63cbb5;"></span>
+	                    		           <div class="mui-media-body">存款</div>
+	                    		       </a>
+	                    		   </li>
+	                    		   <li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3">
+	                    		       <a href="#">
+	                    		           <span class="mui-icon iconfont icon-dk" style="color: #ff5173;"></span>
+	                    		           <div class="mui-media-body">贷款</div>
+	                    		       </a>
+	                    		   </li>
+	                    		   <li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3">
+	                    		       <a href="#">
+	                    		           <span class="mui-icon iconfont icon-ny" style="color: #f79610;"></span>
+	                    		           <div class="mui-media-body">农银快e宝</div>
+	                    		       </a>
+	                    		   </li>
+	                    		   <li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3">
+	                    		       <a href="#">
+	                    		          <span class="mui-icon iconfont icon-kf" style="color: #39a6ff;"></span>
+	                    		           <div class="mui-media-body">农银快e付</div>
+	                    		       </a>
+	                    		   </li>
+	                    		   <li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3">
+	                    		       <a href="#">
+	                    		           <span class="mui-icon iconfont icon-lc" style="color: #ff5173;"></span>
+	                    		           <div class="mui-media-body">理财</div>
+	                    		       </a>
+	                    		   </li>
+	                    		   <li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3">
+	                    		       <a href="#">
+	                    		          <span class="mui-icon iconfont icon-jj" style="color: #5ab2ff;"></span>
+	                    		           <div class="mui-media-body">基金</div>
+	                    		       </a>
+	                    		   </li>
+	                    		   <li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3">
+	                    		       <a href="#">
+	                    		           <span class="mui-icon iconfont icon-jbp" style="color: #f79610;"></span>
+	                    		           <div class="mui-media-body">账户贵金属</div>
+	                    		       </a>
+	                    		   </li>
+	                    		   <li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3">
+	                    		       <a href="#">
+	                    		           <span class="mui-icon iconfont icon-bx" style="color: #00b694;"></span>
+	                    		           <div class="mui-media-body">保险</div>
+	                    		       </a>
+	                    		   </li>
+	                    		   <li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3">
+	                    		       <a href="#">
+	                    		           <span class="mui-icon iconfont icon-jf" style="color: #39a6ff;"></span>
+	                    		           <div class="mui-media-body">生活缴费</div>
+	                    		       </a>
+	                    		   </li>
+	                    		   <li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3">
+	                    		       <a href="#">
+	                    		          <span class="mui-icon iconfont icon-jh" style="color: #f7a639;"></span>
+	                    		           <div class="mui-media-body" >全部</div>
+	                    		       </a>
+	                    		   </li>
+	                    		       </ul>
+	                    		   
+	                    		</div>
+	                    	</div>
+	                    </div>
+	                    <!--晚上好部分结束-->
+	                    
+	                    <!--金融小秘书部分开始-->
+	                    <div class="little_m">
+	                    	<div class="pro">
+	                    		<div>
+	                    			<p>金融小秘书，千事万事都靠它</p>
+	                    			<div>
+	                    				<p>
+	                    					<span class="mui-icon iconfont icon-jf"></span>
+	                    					<span>缴费提醒</span>
+	                    				</p>
+	                    				<p>
+	                    					<span class="mui-icon iconfont icon-xinyongqia"></span>
+	                    					<span>还款提醒</span>
+	                    				</p>
+	                    				<p>
+	                    					<span class="mui-icon iconfont icon-wode"></span>
+	                    					<span>个人提醒</span>
+	                    				</p>
+	                    				
+	                    			</div>
+	                    		</div>
+	                    		<img src="img/go.png" height="40px" width="40px"/>
+	                    	</div>
+	                    </div>
+	                    <!--金融小秘书部分结束-->
+	                    
+	                    <!--立即体验部分开始-->
+	                    <div id="now">
+	                    	<div class="now1">
+	                    		<div>
+	                    			<img src="img/logo.jpg" height="30px"/>
+	                    			<p>个人信贷线上一站式服务</p>
+	                    		</div>
+	                    		<button type="button" class="mui-btn mui-btn-warning mui-btn-outlined">立即体验</button>
+	                    	</div>
+	                    	<img src="img/now.png" width="150px" height="120px"/>
+	                    </div>
+	                    <!--立即体验部分结束-->
+	                    
+	                    <!--为你推荐部分开始-->
+	                    <div class="recomend">
+	                    	<div>
+	                    		<p>为你推荐</p>
+	                    		<div>
+	                    			<div id="slider" class="mui-slider" >
+	                    			  <div class="mui-slider-group mui-slider-loop">
+	                    			    
+	                    			    <!-- 第一张 -->
+	                    			    <div class="mui-slider-item">
+	                    			      <a href="#">
+	                    			        <img src="img/ny.jpg" height="100">
+	                    			      </a>
+	                    			    </div>
+	                    			    <!-- 第二张 -->
+	                    			    <div class="mui-slider-item">
+	                    			      <a href="#">
+	                    			        <ul class="recomend_pro">
+	                    			        	<li>
+	                    			        		<p>博时医疗保健行业..</p>
+	                    			        		<p>17.85%</p>
+	                    			        		<p>月涨幅</p>
+	                    			        	</li>
+	                    			        	<li>
+	                    			        		<p>前海开源稀缺资源..</p>
+	                    			        		<p>16.48%</p>
+	                    			        		<p>月涨幅</p>
+	                    			        	</li>
+	                    			        	<li>
+	                    			        		<p>诺安新经济产业..</p>
+	                    			        		<p>15.69%</p>
+	                    			        		<p>月涨幅</p>
+	                    			        	</li>
+	                    			        </ul>
+	                    			      </a>
+	                    			    </div>
+	                    			    
+	                    			    
+	                    			  </div>
+	                    			  <div class="mui-slider-indicator">
+	                    			    <div class="mui-indicator mui-active"></div>
+	                    			    <div class="mui-indicator"></div>
+	                    			    
+	                    			  </div>
+	                    			</div>
+	                    			
+	                    		</div>
+	                    	</div>
+	                    </div>
+	                    <!--为你推荐部分结束-->
+	                    <!-- 主界面具体展示内容结束 -->
+	                    
+	                </div>
+	            </div>
+	       	 <div class="mui-off-canvas-backdrop"></div>
+	        </div>
+	    </div>
+	    <script type="text/javascript" charset="utf-8">
+		mui('#offCanvasContentScroll').scroll(); 
+////		投资部分
+//		document.getElementById('investment').addEventListener('tap',function(){
+//    		mui.openWindow({
+//			url: 'investment.html', 
+//			id:'investment',
+//			style:{
+//				color:'red',
+//			}
+//		})
+//    	})
+//		
+////		信用卡
+//       document.getElementById('card').addEventListener('tap',function(){
+//    		mui.openWindow({
+//			url: 'card.html', 
+//			id:'card'
+//		})
+//    	})
+////       生活部分
+//       document.getElementById('life').addEventListener('tap',function(){
+//    		mui.openWindow({
+//			url: 'life.html', 
+//			id:'life'
+//		})
+//    	})
+////       我的部分
+//       document.getElementById('my').addEventListener('tap',function(){
+//    		mui.openWindow({
+//			url: 'my.html', 
+//			id:'my',
+//		
+//			
+//		})
+////		this.className='mui-active';
+//    	})
+
+          mui('.mui-bar-tab').on('tap','a',function(){  
+                console.log(this.getAttribute('href'));  
+                location.href = this.getAttribute('href');  
+            }) 
+        </script>
+	    
+</body>
+</html>

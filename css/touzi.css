@@ -1,0 +1,298 @@
+.pic_content{
+	width: 100%;
+	height: 200px;
+	background: #FFFFFF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 10px;
+}
+.pic01{
+	width: 100%;
+	height: 200px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#img01{
+	box-shadow:0 0 10px #000;
+}
+/*理财部分开始*/
+.manage{
+	width: 100%;
+	height: 300px;
+	background: #FFFFFF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.manage_pro{
+	width: 95%;
+	height: 250px;
+}
+.title_mange{
+	width: 100%;
+	height: 30px;
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+}
+.pro_mange{
+	width: 100%;
+	height: 220px;
+}
+#money{
+	width: 100%;
+	height: 220px;
+}
+#money>li{
+	width: 100%;
+	height: 110px;
+	border-bottom: none;
+}
+#money>li>div{
+	width: 100%;
+	height: 60px;
+	margin-left: -20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+#money>li>div>p{
+	width: 40%;
+	height: 60px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+
+}
+#money>li>div>p>span:nth-child(1){
+	color: #ff827b;
+	font-size: 20px;
+
+}
+#money>li>div>div{
+	width: 50%;
+	height: 60px;
+
+}
+#money>li>div>div>p:nth-child(1){
+	font-size: 12px;
+
+}
+/*理财部分结束*/
+/*贵金属部分开始*/
+.metal{
+	width: 100%;
+	height: 300px;
+	background: #FFFFFF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.metal_pro{
+	width: 90%;
+	height: 150px;
+
+}
+.title_metal{
+	width: 100%;
+	height: 30px;
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+}
+.metal_contant{
+	width: 100%;
+	height: 120px;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.metal_left{
+	width: 45%;
+	height: 120px;
+
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+.metal_left>p:nth-child(1){
+	font-size: 20px;
+}
+.metal_left>p:nth-child(2){
+	font-size: 25px;
+	color: #FF827B;
+}
+.metal_left>p:nth-child(3){
+	font-size: 25px;
+	color: #9C9A9C;
+}
+
+
+.metal_right{
+	width: 45%;
+	height: 120px;
+
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+.metal_right>p:nth-child(1){
+	font-size: 20px;
+}
+.metal_right>p:nth-child(2){
+	font-size: 25px;
+	color: #FF827B;
+}
+.metal_right>p:nth-child(3){
+	font-size: 25px;
+	color: #9C9A9C;
+}
+/*贵金属部分结束*/
+/*基金部分开始*/
+.manage{
+	width: 100%;
+	height: 300px;
+	background: #FFFFFF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.manage_pro{
+	width: 95%;
+	height: 250px;
+}
+.title_mange{
+	width: 100%;
+	height: 30px;
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+}
+.pro_mange{
+	width: 100%;
+	height: 220px;
+}
+#money{
+	width: 100%;
+	height: 220px;
+}
+#money>li{
+	width: 100%;
+	height: 110px;
+	border-bottom: none;
+}
+#money>li>div{
+	width: 100%;
+	height: 60px;
+	margin-left: -20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+#money>li>div>p{
+	width: 40%;
+	height: 60px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+
+}
+#money>li>div>p>span:nth-child(1){
+	color: #ff827b;
+	font-size: 20px;
+
+}
+#money>li>div>div{
+	width: 50%;
+	height: 60px;
+
+}
+#money>li>div>div>p:nth-child(1){
+	font-size: 12px;
+
+}
+/*基金部分结束*/
+/*资讯部分开始*/
+.Information{
+	width: 100%;
+	height: 300px;
+	background: #FFFFFF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.Information_pro{
+	width: 95%;
+	height: 250px;
+}
+.title_Information{
+	width: 100%;
+	height: 30px;
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+}
+.pro_Information{
+	width: 100%;
+	height: 220px;
+}
+#list01{
+	width: 100%;
+	height: 220px;
+}
+#list01>li{
+	width: 100%;
+	height: 110px;
+
+}
+#list01>li>div{
+	width: 100%;
+	height: 80px;
+}
+#list01>li>div>img{
+	width: 150px;
+	height: 80px;
+	
+}
+#list01>li>div>div{
+	width: 45%;
+	height: 80px;
+	
+}
+#list01>li>div>div>p{
+	font-size: 12px;
+	
+}
+#list01>li>div>div>div{
+	width: 100%;
+	height: 30px;
+	display: flex;
+	align-items: center;
+	
+	
+}
+#list01>li>div>div>div>p{
+	width: 45px;
+	height: 20px;
+	background: #FF827B;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 10px;
+	color: #FFFFFF;
+	border-radius: 5px;
+	
+	
+}
+#list01>li>div>div>div>span{
+	font-size: 10px;
+	margin-left: 10px;
+	color: #bdbebd;
+}
+/*资讯部分结束*/

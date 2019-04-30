@@ -1,0 +1,317 @@
+/*头部部分开始*/
+
+#top {
+	width: 200px;
+	height: 42px;
+	border: 1px solid #EFEFF4;
+	background: #FFFFFF;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border-radius: 5px;
+}
+
+.search01 {
+	width: 90px;
+	height: 30px;
+	/*background: red;*/
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.search01>span {
+	font-size: 13px;
+	color: #9c9a9c;
+}
+
+
+/*头部部分结束*/
+
+
+/*内容部分开始*/
+
+
+/*banner部分开始*/
+
+.box {
+	width: 100%;
+	height: 280px;
+	background: #FFFFFF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#banner {
+	width: 90%;
+	height: 200px;
+	background: -webkit-linear-gradient(red, blue);
+	/* Safari 5.1 - 6.0 */
+	background: -o-linear-gradient(red, blue);
+	/* Opera 11.1 - 12.0 */
+	background: -moz-linear-gradient(red, blue);
+	/* Firefox 3.6 - 15 */
+	background: linear-gradient(gray, black);
+	/* 标准的语法 */
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#banner>div {
+	width: 140px;
+	height: 140px;
+	display: flex;
+	border-radius: 50%;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: column;
+}
+
+.baner_bot {
+	width: 100%;
+	height: 30px;
+	background: #FFFFFF;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.baner_bot>p {
+	color: #31dfd6;
+	font-size: 17px;
+	font-weight: bold;
+}
+/*banner部分结束*/
+/*小图标部分开始*/
+.small_ico {
+	width: 100%;
+	height: 150px;
+	background: #FFFFFF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.small_ico>div {
+	width: 90%;
+	height: 150px;
+}
+
+
+/*小图标部分结束*/
+
+
+/*备用金部分开始*/
+
+.standby {
+	width: 100%;
+	height: 200px;
+	background: #f7f3f7;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.standby>div {
+	width: 90%;
+	height: 150px;
+	background: #ffffff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.standby>div>div {
+	width: 90%;
+	height: 130px;
+}
+
+.standby>div>div>p {
+	font-size: 17px;
+	color: #000000;
+	font-weight: 600;
+}
+
+.standby>div>div>div {
+	width: 100%;
+	height: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: column;
+}
+
+.standby>div>div>div>p:nth-child(1) {
+	font-size: 20px;
+	color: #d6d3d6;
+}
+
+.standby>div>div>div>p:nth-child(2) {
+	font-size: 25px;
+	color: #ff7994;
+}
+
+.standby>div>div>div>p:nth-child(3) {
+	width: 80%;
+	height: 30px;
+	background: #00d3d6;
+	color: #FFFFFF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+/*备用金部分结束*/
+
+
+/*信用币部分开始*/
+
+.credit {
+	width: 100%;
+	height: 100px;
+	background: #FFFFFF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.credit>div {
+	width: 90%;
+	height: 80px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.credit>div>p:nth-child(1) {
+	width: 20%;
+	height: 80px;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	align-items: center;
+	color: #000000;
+	font-size: 17px;
+}
+
+.credit>div>p:nth-child(2) {
+	width: 49%;
+	height: 70px;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	align-items: center;
+	color: #737573;
+	font-size: 12px;
+}
+
+.credit>div>p:nth-child(2)>span>b {
+	color: #ff6184;
+	font-size: 18px;
+}
+
+.credit>div>p:nth-child(3) {
+	width: 27%;
+	height: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid #10c7b5;
+	border-radius: 5px;
+	color: #10c7b5;
+}
+
+
+/*信用币部分结束*/
+
+
+/*精选部分开始*/
+
+.handpick {
+	width: 100%;
+	height: 300px;
+	background: #FFFFFF;
+	margin-top: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.handpick>div {
+	width: 90%;
+	height: 270px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: column;
+}
+
+.handpick>div>p {
+	align-self: flex-start;
+	color: #000000;
+	font-size: 20px;
+	font-weight: bolder;
+}
+
+.handpick>div>ul {
+	width: 90%;
+	height: 100px;
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.handpick>div>ul>li {
+	width: 30%;
+	height: 100px;
+	margin-left: -40px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: column;
+}
+
+.handpick>div>ul>li>p:nth-child(2) {
+	color: #636563;
+}
+
+.handpick>div>ul>li>p:nth-child(3) {
+	color: #ff9e9c;
+}
+
+
+/*精选部分结束*/
+
+
+/*推荐专区开始*/
+
+.rec {
+	width: 100%;
+	height: 200px;
+	background: #FFFFFF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.rec>div {
+	width: 90%;
+	height: 170px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+}
+
+.rec>div>p {
+	align-self: flex-start;
+	color: #000000;
+	font-size: 20px;
+	font-weight: bolder;
+}
+
+
+/*推荐专区结束*/

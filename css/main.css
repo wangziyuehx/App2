@@ -1,0 +1,172 @@
+#top{
+	width: 200px;
+	height: 42px;
+	border: 1px solid #EFEFF4;
+	background: #FFFFFF;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border-radius: 5px;
+}
+.search01{
+	width: 90px;
+	height: 30px;
+	/*background: red;*/
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.search01>span{
+	font-size: 13px;
+	color: #9c9a9c;
+}
+
+/*晚上好部分开始*/
+.night{
+	width: 100%;
+	height: 250px;
+	background: #FFFFFF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.night_content{
+	width: 95%;
+	height: 200px;
+	
+	display: flex;
+	justify-content: space-between;
+	
+	flex-direction: column;
+}
+.night_content>p{
+	color: #00aa94;
+	font-size: 17px;
+}
+.night_content>div{
+	width: 100%;
+	height: 200px;
+}
+/*晚上好部分结束*/
+/*金融小秘书部分开始*/
+.little_m{
+	width: 100%;
+	height: 100px;
+	background: #FFFFFF;
+	margin-top: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.pro{
+	width: 90%;
+	height: 80px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.pro>div{
+	width: 80%;
+	height: 50px;
+}
+.pro>div>p{
+	font-size: 17px;
+	color: #000000;
+}
+.pro>div>div{
+	width:100%;
+	height: 30px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+/*金融小秘书部分结束*/
+
+/*立即体验部分开始*/
+#now{
+	width: 100%;
+	height: 150px;
+	background: #FFFFFF;
+	margin-top: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.now1{
+	width: 60%;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.now1>div{
+	width: 100%;
+	height: 70px;
+	
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: column;
+}
+/*立即体验部分结束*/
+
+/*为你推荐部分开始*/
+.recomend{
+	width: 100%;
+	height: 180px;
+	background: #FFFFFF;
+	margin-top: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.recomend>div{
+	width: 90%;
+	height: 120px;
+	/*background: red;*/
+
+}
+.recomend>div>p{
+	font-size: 17px;
+
+}
+.recomend>div>div{
+	width: 100%;
+	height: 100px;
+	/*background: pink;*/
+
+}
+.recomend_pro{
+	width: 100%;
+	height: 100px;
+	/*background: yellow;*/
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.recomend_pro>li{
+	width: 33%;
+	height: 100px;
+	/*background: orange;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin-left: -40px;
+}
+.recomend_pro>li>p:nth-child(2){
+	color: #ff9e94;
+}
+/*为你推荐部分结束*/
+
+/*侧栏部分*/
+#celan{
+	height: 100%;
+	background: -webkit-linear-gradient(red, blue); /* Safari 5.1 - 6.0 */ 
+  background: -o-linear-gradient(red, blue); /* Opera 11.1 - 12.0 */ 
+  background: -moz-linear-gradient(red, blue); /* Firefox 3.6 - 15 */ 
+  background: linear-gradient(red, blue); /* 标准的语法 */ 
+}
+

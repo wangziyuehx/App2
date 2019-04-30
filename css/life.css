@@ -1,0 +1,210 @@
+/*头部部分开始*/
+#top{
+	width: 200px;
+	height: 42px;
+	border: 1px solid #EFEFF4;
+	background: #FFFFFF;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border-radius: 5px;
+}
+.search01{
+	width: 90px;
+	height: 30px;
+	/*background: red;*/
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.search01>span{
+	font-size: 13px;
+	color: #9c9a9c;
+}
+
+/*头部部分结束*/
+/*小图标部分开始*/
+.small_ico{
+	width: 100%;
+	height: 150px;
+	margin-top: 45px;
+	background: #FFFFFF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.small_ico>div{
+	width: 90%;
+	height: 150px;
+	
+}
+/*小图标部分结束*/
+/*金属商品部分开始*/
+.store{
+	width: 100%;
+	height: 150px;
+	background: #FFFFFF;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+}
+.store>li{
+	width: 35%;
+	height: 100px;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	align-items: center;
+	margin-left: -40px;
+	
+}
+.store>li>p:nth-child(1){
+	font-size: 13px;
+	color: #6b716b;
+	align-self: flex-start;
+	
+}
+.store>li>p:nth-child(2){
+	font-size: 13px;
+	color: orange;
+	align-self: flex-start;
+	
+}
+/*金属商品部分结束*/
+/*优享生活部分开始*/
+.enjoy{
+	width: 100%;
+	height: 300px;
+	background: #FFFFFF;
+	margin-top: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.enjoy>div{
+	width: 90%;
+	height: 270px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: column;
+	
+}
+.enjoy>div>p{
+	align-self: flex-start;
+	color: #000000;
+	font-size: 20px;
+	font-weight: bolder;
+	
+}
+.enjoy>div>ul{
+	width: 90%;
+	height: 100px;
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+}
+.enjoy>div>ul>li{
+	width: 33%;
+	height: 100px;
+	margin-left: -40px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: column;
+	
+}
+.enjoy>div>ul>li>p:nth-child(2){
+	color: #636563;
+	
+}
+.enjoy>div>ul>li>p:nth-child(3){
+	color: #ff9e9c;
+	
+}
+/*优享部分部分结束*/
+/*品质商城部分开始*/
+.quality{
+	width: 100%;
+	height: 400px;
+	background: #FFFFFF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.quality>div{
+	width: 90%;
+	height: 370px;
+
+	
+}
+.quality>div>p{
+	width: 100%;
+	height: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+}
+.quality>div>p>span:nth-child(1){
+	color: #000000;
+	font-size: 20px;
+	
+}
+.quality>div>div{
+	width: 100%;
+	height: 350px;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.quality>div>div>div{
+	width: 50%;
+	height: 350px;
+
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+}
+/*品质商城部分结束*/
+/*服务精选部分开始*/
+.serve{
+	width: 100%;
+	height: 250px;
+	background: #FFFFFF;
+	margin-top: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.serve>div{
+	width: 90%;
+	height: 220px;
+
+}
+.serve>div>p{
+	font-size: 20px;
+	color: #000000;
+}
+.serve>div>div{
+	width: 100%;
+	height: 200px;
+
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+}
+.serve>div>div>div{
+	width: 100%;
+	height: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	}
+/*服务精选部分结束*/

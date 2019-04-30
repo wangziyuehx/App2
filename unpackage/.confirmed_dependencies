@@ -1,0 +1,62 @@
+{
+	"index.html": {
+		"refer": [
+			"investment.html",
+			"card.html",
+			"life.html",
+			"my.html",
+			"coming.html",
+			"login.html"
+		],
+		"resources": [
+			"investment.html"
+		]
+	},
+	"card.html": {
+		"refer": [
+			"index.html",
+			"life.html",
+			"investment.html"
+		]
+	},
+	"my.html": {
+		"refer": [
+			"life.html",
+			"index.html"
+		]
+	},
+	"investment.html": {
+		"refer": [
+			"card.html",
+			"index.html"
+		]
+	},
+	"life.html": {
+		"refer": [
+			"my.html",
+			"card.html"
+		]
+	},
+	"coming.html": {
+		"refer": [
+			"index.html",
+			"gg.html"
+		]
+	},
+	"gg.html": {
+		"refer": [
+			"index.html"
+		]
+	},
+	"login.html": {
+		"refer": [
+			"main.html",
+			"forget_password.html"
+		]
+	},
+	"forget_password.html": {
+		"refer": [
+			"login.html"
+		]
+	}
+}
